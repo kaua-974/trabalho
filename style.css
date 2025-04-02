@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --preto: rgb(0, 0, 0);
+    --cinza: rgb(20, 20, 20);
+    --cinza-claro: rgb(38, 38, 38);
+    --branco: rgb(255, 255, 255);
+    --lima: rgb(196, 247, 41);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--preto);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: var(--cinza);
+    color: var(--branco);
+    width: 380px;
+    text-align: center;
+    border: 12px;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+img {
+    width: 91px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+strong {
+    color: var(--lima);
+    font-size: 14px;
+}
+
+p {
+    margin-block: 24px;
+    font-size: 14px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    display: block;
+    background-color: var(--cinza-claro);
+    margin-bottom: 16px;
+    padding: 12px;
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+a:hover {
+    background-color: var(--lima);
+    color: var(--preto);
+    transition: 0.44s;
+}
